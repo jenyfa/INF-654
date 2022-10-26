@@ -1,0 +1,114 @@
+
+
+body{font-family:Tajawal Light, "Calibri", sans-serif;
+    background-color:#ffffff;
+    color: black;
+    font-size: 125%;
+}
+
+header{
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-size: 150%;	   
+      border-bottom: 5px solid #26bafa;
+      text-transform: uppercase;
+      font-family: Open Sans, "Calibri", sans-serif;
+      text-shadow: 2px 2px #aadcf1;
+}
+
+header a {text-decoration: none;
+         color: #46344E;
+}
+
+nav {font-weight: 800;
+    text-align: center;
+    font-size: 125%;
+    padding:0;
+    font-style: bold;
+}
+
+nav a {text-decoration: none;
+      color: #46344E;
+}
+
+nav:link {color:#00080b;}
+
+nav :visited {color: #05c3fd;
+             }
+
+nav :hover {border-bottom:2px solid #03f9d0;
+           color: #0404f3f3;
+           padding:1em;
+           font-style: bold;
+           transition: color 3s ease-in-out;}
+           
+h1 {
+   font-family: Tajawal, "Calibri", sans-serif;
+   letter-spacing: 0.30em;
+   text-align: center;
+   }
+   
+h2 {font-family: Tajawal, "Calibri", sans-serif;
+   letter-spacing: 0.20em;
+   text-align: center;
+   text-decoration:underline;
+   }
+   
+h3 {font-family:Tajawal, "Calibri", sans-serif;
+   color: #08cff7;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   text-decoration: underline;}
+   
+h4 {font-style: italic;
+   font-family:Tajawal, "Calibri", sans-serif;
+   padding-top: 10px;	}
+   
+main {padding-top: 20px;
+     padding-right: 40px;
+     padding-left:40px;
+     margin: 20px;
+     }
+
+#wrapper {background-color: #def3f9;
+         }
+       
+#videos{padding:20px;
+       margin-left:5px;
+       margin-right: 5px;
+      }
+
+form { display: flex; 
+      flex-flow: column nowrap; 
+      padding:40px;
+    }    
+         
+.wrapper {padding-bottom: 40px;}
+
+form {width: 60%;
+     display: grid;
+     grid-gap: 1em;
+     grid-template-columns: 6em 1fr;
+     grid-template-rows: auto;
+}
+
+input [type="submit"] {grid-column: 2/3;
+      background-color: #46344E;
+      color: #FFFFFF;
+    }
+    
+input [type=text]{BORDER: NONE;
+                 border-bottom: 2px outset #06e5f5;
+                 outline: none;
+                 }
+
+input [type=text] :focus {background-color: #58c7dd;}
+    
+input, textarea { margin-bottom: .5em; 
+                 padding:12px 12px;
+    }
+    
+              
+      
+      
